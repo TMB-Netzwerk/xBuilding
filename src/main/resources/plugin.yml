@@ -1,0 +1,28 @@
+name: xBuilding
+version: 1.0
+author: XenoDEV
+api-version: 1.20
+
+main: de.xenodev.xBuilding
+
+commands:
+  location:
+    description: Setze Locations oder teleportiere dich
+  worldtime:
+    description: Schaue dir die Zeit von der Welt an
+    aliases: ["worldtime", "wt", "uptime", "ut"]
+  rename:
+    description: Nenne das Item in deiner Hand um
+    aliases: ["rename", "rn"]
+  signate:
+    description: Signiere das Item in deiner Hand
+    aliases: ["signate", "sign", "sn"]
+  gamemode:
+    description: Setze den Spielmodus von dir oder anderen um
+    aliases: ["gamemode", "gm", "spielmodus", "sm"]
+  endersee:
+    description: Schaue dir deine oder andere Enderchests an
+    aliases: ["endersee", "enderchest", "es", "ec"]
+  invsee:
+    description: Schaue dir das Inventar eines Spielers an
+    aliases: ["invsee", "is", "inv", "inventory"]
